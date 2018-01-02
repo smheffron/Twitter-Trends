@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">Twitter Trends</string>
     <string name="com.twitter.sdk.android.CONSUMER_KEY">oqqV4Yfzhu9EXGkXUs7CAZAJ6</string>
-    <string name="com.twitter.sdk.android.CONSUMER_SECRET">	ZHvHhPACxzWbqpAxweH9JmdVFXuB8B9PwJ0WaH50rYMSWbt7s9
-    </string>
-
-
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">	ZHvHhPACxzWbqpAxweH9JmdVFXuB8B9PwJ0WaH50rYMSWbt7s9</string>
+    <string name="log_in_as_guest">Log in as guest</string>
 </resources>

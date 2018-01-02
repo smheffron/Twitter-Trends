@@ -7,8 +7,8 @@ android {
         applicationId "com.shelby.twittertrends"
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -25,16 +25,19 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
+
+    compile('com.twitter.sdk.android:twitter-mopub:3.1.1@aar') {
+        transitive = true;
+    }
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.twitter.sdk.android:twitter:3.1.1'
     testCompile 'junit:junit:4.12'
 
-    compile('com.twitter.sdk.android:twitter-mopub:3.1.1@aar') {
-        transitive = true;
-    }
+    compile 'com.google.android.gms:play-services-places:11.8.0'
 }
 
 repositories {
     jcenter()
+
 }
